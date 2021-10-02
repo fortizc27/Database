@@ -24,6 +24,7 @@ SET NOCOUNT ON
 			@Edad,
 			@FechaNacimiento)
 
+
 			COMMIT TRANSACTION TRASA
 			SELECT 0 AS CodeError, '' AS MsgError
 			
