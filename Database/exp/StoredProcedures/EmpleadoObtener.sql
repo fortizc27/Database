@@ -10,7 +10,9 @@ SET NOCOUNT ON
 		E.PrimerApellido,
 		E.SegundoApellido,
 		E.Edad,
-		E.FechaNacimiento
+		E.FechaNacimiento,
+		E.TipoIdentificacion,
+		E.Identificacion
 	FROM EXP.Empleado E
 	WHERE
 	(@IdEmpleado IS NULL OR IdEmpleado=@IdEmpleado)
