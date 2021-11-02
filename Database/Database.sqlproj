@@ -72,5 +72,9 @@
     <Build Include="exp\StoredProcedures\EmpleadoEliminar.sql" />
     <Build Include="exp\StoredProcedures\EmpleadoObtener.sql" />
     <Build Include="exp\Tables\TipoIdentificacion.sql" />
+    <Build Include="exp\StoredProcedures\TI_Obtener.sql" />
+    <Build Include="exp\StoredProcedures\TI_Insertar.sql" />
+    <Build Include="exp\StoredProcedures\TI_Eliminar.sql" />
+    <Build Include="exp\StoredProcedures\TI_Actualizar.sql" />
   </ItemGroup>
 </Project>

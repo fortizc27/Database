@@ -8,6 +8,7 @@
 	, [FechaNacimiento] DATETIME NOT NULL
 	, [TipoIdentificacion] INT NOT NULL
 	, [Identificacion] INT NOT NULL
+	, CONSTRAINT FK_TipoIdentificacion FOREIGN KEY ([TipoIdentificacion]) REFERENCES [exp].[TipoIdentificacion]([IdTipoIdentificacion])
 )
 WITH (DATA_COMPRESSION = PAGE)
 GO
